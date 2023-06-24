@@ -1,0 +1,254 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@600&display=swap" rel="stylesheet");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans', sans-serif;;
+}
+
+body{
+    background: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    background: #fff;
+    margin: 50px;
+    box-shadow: 0 50px 75px rgba(0,0,0.1);
+    border-left: 50px solid #fff;
+    border-right: 50px solid #fff;
+}
+
+.container .top {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 40px;
+    padding-bottom: 0;
+}
+
+.container .top .imgBx {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.container .top .imgBx .box {
+    position: relative;
+    width: 70%;
+    min-width: 200px;
+}
+
+.container .top .profiletext {
+    position: relative;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.container .top .profiletext h3 {
+    font-size: 3em;
+    letter-spacing: 0.1em;
+    line-height: 1.2em;
+    color: #1cb5c0;
+}
+
+.container .contentbox {
+    position: relative;
+    min-height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 0 40px 40px;
+}
+
+.container .contentbox h3 {
+    border-left: 4px solid hsl(0, 84%, 51%);
+    padding-left: 10px;
+    line-height: 1em;
+    font-size: 1em;
+    letter-spacing: 0.1em;
+    margin-top: 50px;
+}
+
+.container .contentbox ul {
+    position: relative;
+    margin: 10px 0;
+}
+
+.container .contentbox li {
+    list-style: none;
+    margin: 25px 0;
+    line-height: 1em;
+    color: #1cb5c0;
+    cursor: pointer;
+    display: flex;
+}
+
+.container .contentbox ul li ion-icon {
+    font-size: 1.2em;
+    margin-right: 10px;
+    color: #24b108;
+}
+
+.container .contentbox ul.education li {
+    flex-direction: column;
+    margin: 25px 0;
+
+}
+
+h5 {
+    color: hsl(81, 75%, 43%);
+}
+
+h4 {
+    color: rgb(177, 25, 126);
+    font-weight: 500;
+    margin: 5px 0;
+}
+
+h6 {
+    color: rgb(202, 190, 16);
+    font-weight: 300;
+    font-size: 1em;
+}
+
+.Language li {
+    flex-direction: column;
+}
+
+.Language li span {
+    color: rgb(105, 18, 204);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.Language .percent {
+    position: relative;
+    height: 100%;
+    background: rgb(211, 208, 216);
+    height: 6px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    display: block;
+    overflow: hidden;
+}
+
+.Language .percent div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: rgb(117, 4, 230);
+
+}
+
+.container .contentbox ul.interest {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.container .contentbox ul.interest li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.container .contentbox ul.interest li .icon {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background: rgb(117, 4, 230);
+    color: #fff;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .contentbox ul.interest li .icon ion-icon {
+    color: #fff;
+    margin-right: 0;
+}
+
+p {
+    font-size: 300;
+}
+
+.rightside {
+    padding-left: 40px;
+}
+
+.rightside p {
+    padding-top: 5px;
+}
+.about .box {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+
+}
+
+.about .box .year_company {
+    min-width: 150px;
+    margin-top: 5px;
+}
+
+.about .box .year_company h5 {
+    color: hsl(81, 75%, 43%);
+    font-weight: 600;
+}
+
+.about .box .year_company h5:nth-child(1)
+{
+    color: #1cb5c0;
+}
+
+.about .box .text h4 {
+    color: #1cb5c0;
+    font-size: 16px;
+    margin: 0;
+}
+
+.about.skills .box {
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.about.skills .box h4 {
+    color: #74f709;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.about.skills .box .percent {
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background: #d3dfd3;
+   
+}
+
+.about.skills .box .percent div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #6ce40a;
+    
+}
+
